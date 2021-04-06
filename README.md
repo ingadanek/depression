@@ -6,6 +6,12 @@ Created a tool that predicts whether one's stress level is healthy or not. Exces
 
 **Packages:** `pandas, numpy, matplotlib, seaborn, sklearn, imblearn`
 
+**Information Gain Hithub:** https://github.com/krishnaik06/Complete-Feature-Selection/blob/master/3-%20Information%20gain%20-%20mutual%20information%20In%20Classification.ipynb
+
+**Pearson Correlation Github:** https://github.com/krishnaik06/Complete-Feature-Selection/blob/master/2-Feature%20Selection-%20Correlation.ipynb
+
+**Variance Threshold Github:** https://github.com/krishnaik06/Complete-Feature-Selection/blob/master/1.%20Feature%20Selection-%20Dropping%20Constant%20Features.ipynb
+
 ## Data Cleaning
 After loading the data, I needed to clean it up so that it was usable for our model. I made the following changes:
 * removed redundant features/rows,
