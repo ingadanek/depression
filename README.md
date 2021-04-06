@@ -14,8 +14,8 @@ After loading the data, I needed to clean it up so that it was usable for our mo
 
 ## EDA
 I created a countplot to realize that more than twice as many people in our dataset didn't experience unhealthy stress compared to those who did.
-Out of those who did experience unhealthy stress more females than males are exposed to excessive stress. I also created new feature - our target('UNHEALTHY_STRESS') 
-based on existing one (DAILY_STRESS) and dropped the latter.
+Out of those who did experience unhealthy stress more females than males were exposed to excessive stress. I also created new feature - our target('UNHEALTHY_STRESS') 
+based on existing one ('DAILY_STRESS') and dropped the latter.
 
 ## Model Building
 First, I handled categorical features - transformed the categorical variables into dummy variables. I then scaled numerical features for better performance using StandardScaler. After that I balanced the data using SMOTE. I also split the data into train and test subsets with a test size of 20%. After that, I performed a feature selection using:
